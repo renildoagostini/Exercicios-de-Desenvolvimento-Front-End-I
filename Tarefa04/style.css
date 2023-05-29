@@ -1,0 +1,23 @@
+body{
+    background: #cccccc;
+    
+}
+
+
+
+p{
+    text-align: center;
+}
+
+strong{
+    color: red
+}
+
+#missao{
+    font-size: 1.5em;    
+}
+
+#banner{
+    width: 100%;   
+}
+
