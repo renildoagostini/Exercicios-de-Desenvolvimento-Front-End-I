@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+   font-family: 'Montserrat' sans-serif;
+}
+
+header {
+   background: #BBBBBB;
+   padding: 20px 0;
+}
+
+nav li {
+   display: inline;
+   margin: 0 0 0 15px;
+}
+
+nav a {
+   text-transform: uppercase;
+   color: #000000;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+}
+
+nav {
+   position: absolute;
+   top: 110px;
+   right: 0;
+
+}
+
+nav a:hover {
+   color: #555555;
+   text-decoration: underline;
+}
+.caixa {
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
+}
+
+.produtos li {
+   display: inline-block;
+   text-align: center;
+   width: 30%;
+   vertical-align: top;
+   margin: 0 1.5%;
+   padding: 30px 20px;
+   box-sizing: border-box;
+   border: 2px solid #000000;
+   border-radius: 10px;
+}
+
+.produtos li:hover {
+   border-color: #777777;
+}
+
+.produtos li:active {
+   border-color: #AAAAAA;
+   border-width: 1px;
+}
+
+.produtos li:hover h2 {
+   font-size: 32px;
+}
+
+.produtos {
+   width: 940px;
+   margin: 0 auto;
+   padding: 50px 0;
+}
+
+.produtos h2 {
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.produto-descicao {
+   font-size: 18px;
+}
+
+.produto-preco {
+   font-size: 22px;
+   font-weight: bold;
+   margin-top: 10px;
+}
+
+footer {
+   text-align: center;
+   background: url("/imagens-geral/bg.jpg");
+   padding: 40px 0;
+}
+
+.copyright {
+   color: #FFFFFF;
+   font-size: 13px;
+   margin: 20px 0 0 0;
+}
